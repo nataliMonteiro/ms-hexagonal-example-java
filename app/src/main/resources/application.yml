@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    sqlserver:
+      url: ${SQLSERVER_DATABASE_URL:}
+      username: ${SQLSERVER_DATABASE_USERNAME:}
+      password: ${SQLSERVER_DATABASE_PASSWORD:}
+      schema: ${SQLSERVER_DATABASE_SCHEMA:}
+      show-sql: ${SQLSERVER_DATABASE_SHOW_SQL:}
+      driver-class-name:
