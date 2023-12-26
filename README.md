@@ -1,4 +1,4 @@
-# Hexagonal Architecture Example with Java 17 and String Boot
+# Hexagonal Architecture Example with Java 17 and Spring Boot
 
 ## Overview
 
